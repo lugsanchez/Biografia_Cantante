@@ -1,0 +1,182 @@
+
+*{  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url("../imagen/fondo2.jpg") -30px -40px;
+    font-family: Arial, Helvetica, sans-serif; 
+} 
+
+header{
+    background-color:#ffffff;
+}
+
+h1{
+    font-size: 50px;
+    margin: 20px 0;
+    color:black;
+    text-shadow: 0 0 20px #90165e;
+}
+/* ------------------------- MENÚ ------------------------- */
+
+nav{
+    height: 60px; 
+    background: #90165e;
+    margin: 1px 0;   
+}
+
+nav ul{
+    width: 500px;
+    margin: 0 auto;
+}
+
+nav ul li{
+    display: inline;
+    list-style: none;
+}
+
+nav ul li a{ 
+    text-decoration: none;
+    color: #030303;
+    background:#fdfdfd;
+    line-height: 56px;
+    padding: 13px;
+    margin:0 2px;
+    border-radius: 8px;
+    box-shadow: 3px 3px 10px #121212;
+    font-weight: bold;
+}
+
+nav ul li a:hover{ 
+    color:#ffffff;
+    background: #080808;
+    box-shadow: 0 0 0 #ffffff;
+}
+
+section{
+    padding:0 50px 60px;
+}
+
+section div{
+    text-align: center;
+}
+
+section div img{
+    width: 800px; 
+    margin: 20px;
+}
+
+section p{
+    text-align: justify;
+}
+
+
+h2{
+    text-align:center;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+footer{
+    background: #90165e ;
+    color: #ffffff;
+    text-align: center;
+    padding: 8px;
+    margin-top: 20px;
+}
+
+/* --------------------- IDENTIFICADORES -------------------- */
+
+#fondo-header{
+    text-align: center;    
+}
+
+/* ------------------------- CLASES ------------------------- */
+
+.principal{
+    width: 1000px;
+    margin: 20px auto;
+    border: 2px solid #ffffff;
+    box-shadow: 3px 3px 3px #020202;
+    border-radius: 10px;
+    background: #ffffff;
+    
+}
+
+.portada{
+    width: 250px;
+    border-radius: 30px;
+}
+
+.gif{
+    width: 600px;
+    border-radius: 1px;
+}
+
+.foto1{
+    width: 400px;
+    border-radius: 1px;
+
+}
+
+.foto2{
+    width: 550px;
+    border-radius: 1px;
+
+}
+
+.foto3{
+    width: 300px;
+    border-radius: 3px;
+}
+
+.Adele1{
+    width:400px;    
+}
+
+.disco{
+    width: 200px;
+    border-radius: 4px;
+}
+input{
+ 	border: none;
+ 	border-bottom: 1px solid #ffffff;
+ 	background-color:#ffffff;
+ 	font-size:10px;
+     border-radius: 5px;
+    width: 200px;
+    margin: 5px;
+    text-align: center;
+    font-size: medium;
+ }
+
+input[type="submit"]{
+	background-color:#ffffff;
+}
+
+input[type="tel"]{
+	background-color:hsl(0, 0%, 100%);
+	width: 50px;
+}
+
+
+option{
+ 	background-color:rgb(255, 255, 255);
+ }
+
+textarea{
+ 	font-size: 8px;
+}
+
+form{
+    text-align: center;
+    border: 1px solid;
+    color:#000000;
+    margin-top: 100px;
+    margin-left: 300px;
+    margin-right: 300px;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<title>ADELE || Contacto</title>
+</head>
+<body>
+	<main class="principal">
+		<header id= "fondo-header">
+			<h1>ADELE</h1>
+			<img src="imagen/principal.jpg" alt="ADELE" class="portada">
+			<div class="clear"></div>
+		</header>
+		<nav>
+			<ul>
+				<li><a href="index.html">Inicio</a></li>
+                <li><a href="historia.html">Historia</a></li>
+				<li><a href="discografia.html">Discografia</a></li>
+				<li><a href="grammy.html">Grammys</a></li>
+				<li><a href="contacto.html">Contacto</a></li>
+			</ul>
+		</nav>
+    <form>
+		<h2>Formulario de Registro</h2>
+		<p>Los campos que tienen un * son requeridos para el envio del formulario</p>
+		
+		<label for="nombre">Nombre: *</label>
+		<input type="text" id="nombre" placeholder="Escriba nombre" required><br><br>
+		
+		<label for="apellido">Apellido: *</label>
+		<input type="text" name="prename" id="apellido" placeholder="Escriba apellido" maxlength="25" minlength="8" required><br><br>
+		
+		<label for="edad">Edad: </label>
+		<input type="number" name="edad" id="edad" placeholder="Edad"><br><br>
+		
+		<label for="email">Correo electronico: *</label>
+		<input type="email" name="email" id="email" placeholder="Escriba su correo" maxlength="25" minlength="8" required><br><br>
+		
+		<label for="password">Contraseña: *</label>
+		<input type="password" name="password" id="password" placeholder="contraseña" required minlength="8"><br><br>
+		
+		<label for="tel">Telefono: *</label>
+		<input type="tel" name="telefono" id="tel" placeholder="Celular"><br><br>
+		
+		<label for="date">Fecha: *</label>
+		<input type="date" name="fechas" id="date"><br><br>
+
+		<label for="city">ciudad:</label>
+		<select name="ciudad" id=ciudad>
+		  <option value="armenia">Armenia</option> 
+		  <option value="manizales">Manizales</option>
+		  <option value="pereira">Pereira</option>
+		</select><br><br>
+		
+		<label>Escriba su mensaje:</label><br>
+		<textarea rows="5" cols="10"></textarea><br>
+
+
+		<input type="reset" value="Borrar">
+		<input type="submit" value="Enviar">
+	</form>
+	<footer>
+		<p>Página realizada por Luisa Gutierrez Sanchez. &copy; 2021</p>
+	</footer>
+</main>
+    
+</body>
+</html>
