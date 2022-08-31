@@ -69,11 +69,6 @@ section div img{
     margin: 20px;
 }
 
-section p{
-    text-align: justify;
-}
-
-
 h2{
     text-align:center;
     font-size: 30px;
@@ -132,6 +127,14 @@ footer{
 .foto3{
     width: 300px;
     border-radius: 3px;
+    display: block;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+.content-sing{
+    text-align: center;
+
 }
 
 .Adele1{
@@ -139,9 +142,14 @@ footer{
 }
 
 .disco{
-    width: 200px;
+    width: 165px;
     border-radius: 4px;
+    display: block;
+    margin: auto;
+    border: 1px solid;
+    padding: 1rem;
 }
+
 input{
  	border: none;
  	border-bottom: 1px solid #ffffff;
